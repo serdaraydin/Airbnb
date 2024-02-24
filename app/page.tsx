@@ -1,7 +1,10 @@
+import { MapFilterItems } from "@/components/MapFilterItems";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <h1>Hello World</h1>
-
+    <div className="container mx-auto px-5 lg:px-10">
+      <MapFilterItems />
+    </div>
   );
 }
